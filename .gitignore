@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+
+# This site collects no data and has no build step.
+# Keep any local notes or drafts out of the public repo:
+private/
+notes/
+*.local.md
