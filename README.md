@@ -8,9 +8,10 @@ Advocacy & Policy, National Louis University).
 Where the [Pedagogical Friction Studio](https://minerclass.github.io/dissertation-proposal-studio/)
 maps the argument's intellectual lineage and the [dissertation-overview](https://minerclass.github.io/dissertation-overview/)
 hub is the front door, this site is the **scrollytelling walk through the proposal itself**:
-the problem, Ong's extended arc, tertiary algorithmicity and its three pressures, the friction
-framework, the equity boundary, an interactive scenario card sort, and the study design. It is
-built to be read top to bottom in a few minutes.
+the problem, Ong's extended arc, tertiary algorithmicity and its three pressures, the Chapter Two
+intellectual genealogy, the friction framework, the equity boundary, an interactive scenario card sort,
+and the Chapter Three methodological defense. It can be read top to bottom or used as a committee-question
+rehearsal path.
 
 ## What it is
 
@@ -20,6 +21,8 @@ built to be read top to bottom in a few minutes.
   lets a reader draw the productive-versus-exclusionary line and see the question the framework asks.
 - **A hub back into the ecosystem.** The closing section links the companion sites, the defense
   studio, the published article, the open data, and the learning games.
+- **A defense rehearsal path.** Expandable prompts connect Stiegler and adjacent Chapter Two traditions
+  to the framework, then rehearse the Merriam choice, case fence, mixed-methods fit, and disconfirmation plan.
 
 ## Structure
 

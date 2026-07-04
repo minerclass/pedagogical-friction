@@ -28,8 +28,13 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
   enables or constrains the other three. Do not present the four as co-equal; infrastructural is the base.
 - **Equity distinction:** **productive vs. exclusionary** friction, cutting across all dimensions.
 - **Sampling (current draft):** roughly 12 to 16 practitioner interviews (about 6 to 8 classroom-facing
-  educators, 3 to 4 building administrators, 3 to 4 district or system leaders), 4 university students
-  (supporting retrospective strand), and about 200 survey respondents.
+  educators, 3 to 4 building administrators, 3 to 4 district or system leaders), up to 4 university
+  students as a **contextual learner-perspective supplement**, and about 200 survey respondents.
+- **Chapter Two defense framing:** present the literature review as an intellectual genealogy across media
+  ecology, critical algorithm and platform studies, learning science, literacy and authorship, and K-12
+  governance and adoption. Stiegler is a complementary bridge, not the organizing anchor.
+- **Chapter Three defense framing:** Merriam supplies the primary interpretive case-study logic. Stake and
+  Yin remain comparison points that clarify why Merriam fits the phenomenon-bounded, theory-building case.
 - **Citations:** Miner **2026a** = qualifying paper (framework source); Miner **2026b** = Zenodo open-data
   companion (RAND/Gallup + NCES evidence arc); Miner **2026c** = the *i.e.: inquiry in education* article.
 
