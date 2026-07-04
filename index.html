@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div class="progress-bar" id="progress-bar" aria-hidden="true"></div>
 
   <!-- NAV -->
@@ -50,7 +51,7 @@
     <span class="scroll-cue">Scroll <i class="fa-solid fa-chevron-down"></i></span>
   </header>
 
-  <main>
+  <main id="main-content">
     <!-- PROBLEM -->
     <section class="band" id="problem">
       <div class="wrap">
@@ -111,7 +112,7 @@
             <span class="arc-dot">V</span><span class="cap">Tertiary Algorithmicity</span><span class="miner-tag">Miner</span>
           </button>
         </div>
-        <div class="arc-detail" id="arc-detail" aria-live="polite"></div>
+        <div class="arc-detail" id="arc-detail" role="tabpanel" tabindex="0" aria-live="polite"></div>
       </div>
     </section>
 
@@ -217,11 +218,41 @@
         </p>
 
         <div class="argument-chain reveal" aria-label="Five literature traditions and their roles">
-          <article><span class="chain-n">1</span><h3>Media ecology</h3><p><strong>Ong, McLuhan, Postman</strong></p><p>Explains why communication technologies reorganize consciousness, memory, authorship, and public knowledge.</p></article>
-          <article><span class="chain-n">2</span><h3>Algorithms and platforms</h3><p><strong>Stiegler, Kittler, Hayles, Zuboff</strong></p><p>Explains how technical systems shape attention, distribution, cognition, institutional power, and the conditions of encounter.</p></article>
-          <article><span class="chain-n">3</span><h3>Learning science</h3><p><strong>Bjork, Kapur, Sweller</strong></p><p>Supplies the warrant for why effort, generation, retrieval, and productive failure matter for durable learning.</p></article>
-          <article><span class="chain-n">4</span><h3>Authorship and assessment</h3><p><strong>Literacy, rhetoric, embodiment</strong></p><p>Shows why a fluent artifact can no longer be treated as sufficient evidence of understanding, ownership, or accountability.</p></article>
-          <article><span class="chain-n">5</span><h3>K-12 evidence and governance</h3><p><strong>Adoption, policy, equity, readiness</strong></p><p>Establishes that schools already face the problem and identifies the empirical gap the proposed study will investigate.</p></article>
+          <article>
+            <span class="chain-n">1</span>
+            <i class="fa-solid fa-earth-americas chain-icon"></i>
+            <h3>Media ecology</h3>
+            <p class="theorists">Ong, McLuhan, Postman</p>
+            <p class="desc">Explains why communication technologies reorganize consciousness, memory, authorship, and public knowledge.</p>
+          </article>
+          <article>
+            <span class="chain-n">2</span>
+            <i class="fa-solid fa-network-wired chain-icon"></i>
+            <h3>Algorithms and platforms</h3>
+            <p class="theorists">Stiegler, Kittler, Hayles, Zuboff</p>
+            <p class="desc">Explains how technical systems shape attention, distribution, cognition, institutional power, and the conditions of encounter.</p>
+          </article>
+          <article>
+            <span class="chain-n">3</span>
+            <i class="fa-solid fa-graduation-cap chain-icon"></i>
+            <h3>Learning science</h3>
+            <p class="theorists">Bjork, Kapur, Sweller</p>
+            <p class="desc">Supplies the warrant for why effort, generation, retrieval, and productive failure matter for durable learning.</p>
+          </article>
+          <article>
+            <span class="chain-n">4</span>
+            <i class="fa-solid fa-signature chain-icon"></i>
+            <h3>Authorship and assessment</h3>
+            <p class="theorists">Literacy, rhetoric, embodiment</p>
+            <p class="desc">Shows why a fluent artifact can no longer be treated as sufficient evidence of understanding, ownership, or accountability.</p>
+          </article>
+          <article>
+            <span class="chain-n">5</span>
+            <i class="fa-solid fa-school chain-icon"></i>
+            <h3>K-12 evidence and governance</h3>
+            <p class="theorists">Adoption, policy, equity, readiness</p>
+            <p class="desc">Establishes that schools already face the problem and identifies the empirical gap the proposed study will investigate.</p>
+          </article>
         </div>
 
         <div class="stiegler-spotlight reveal">
@@ -230,7 +261,7 @@
             <h3>Technical memory can preserve experience. Generative systems can simulate its traces.</h3>
             <p>Stiegler gives Chapter Two a vocabulary for technical memory and attention that Ong does not develop in the same way. He remains a complementary bridge rather than the developmental anchor.</p>
             <div class="defense-say">
-              <span>Say it in the defense</span>
+              <span><i class="fa-solid fa-quote-left"></i> Say it in the defense</span>
               <p>“Ong helps me explain the historical restructuring of consciousness across media environments. Stiegler helps me explain what changes when memory, attention, and symbolic traces are technically organized. I use Stiegler to deepen the meaning of the transition, not to replace Ong's stages.”</p>
             </div>
           </div>
@@ -239,35 +270,70 @@
               <span class="step-label">Tertiary retention</span>
               <h4>Experience stored outside the person</h4>
               <p>Books, photographs, recordings, and other technical objects preserve traces that consciousness can reactivate. Generative AI complicates this relation by producing retention-like text, image, audio, and video that need not originate in lived experience.</p>
-              <p class="bridge"><strong>Bridge:</strong> existential abstraction, authorship, evidence, and warranted meaning.</p>
+              <p class="bridge" style="border-left: 3px solid var(--existential); padding-left: 0.5rem;"><strong style="color: var(--gold);">Bridge:</strong> existential abstraction, authorship, evidence, and warranted meaning.</p>
             </article>
             <article>
               <span class="step-label">The pharmakon</span>
               <h4>Technology is remedy and poison</h4>
               <p>A technical system can expand access, memory, expression, and participation while also weakening attention or displacing capacities. This supports a technoskeptical position rather than a ban-or-embrace binary.</p>
-              <p class="bridge"><strong>Bridge:</strong> productive versus exclusionary friction.</p>
+              <p class="bridge" style="border-left: 3px solid var(--rhetorical); padding-left: 0.5rem;"><strong style="color: var(--gold);">Bridge:</strong> productive versus exclusionary friction.</p>
             </article>
             <article>
               <span class="step-label">Relational ecology</span>
               <h4>Attention is socially and technically organized</h4>
               <p>Algorithmically tailored environments reflect prior behavior back to the learner. The concern is not only distraction, but whether the environment reduces encounters with resistance, difference, and the disequilibrium through which thinking can change.</p>
-              <p class="bridge"><strong>Bridge:</strong> noetic displacement and infrastructural friction.</p>
+              <p class="bridge" style="border-left: 3px solid var(--noetic); padding-left: 0.5rem;"><strong style="color: var(--gold);">Bridge:</strong> noetic displacement and infrastructural friction.</p>
             </article>
           </div>
         </div>
 
         <h3 class="reveal walk-subhead">Why adjacent traditions remain adjacent</h3>
         <div class="scholar-grid">
-          <article class="scholar-card reveal"><span class="mini-tag">Kittler</span><h3>Material and institutional conditions</h3><p>Media archaeology keeps hardware, data systems, platforms, and institutions visible. It strengthens the infrastructural dimension, but does not provide Ong's developmental account of consciousness.</p></article>
-          <article class="scholar-card reveal d1"><span class="mini-tag">Hayles</span><h3>Technogenesis and cognitive assemblages</h3><p>Distributed cognition challenges any simple claim that offloading is inherently harmful. Chapter Two must therefore distinguish productive human-tool assemblages from delegation that bypasses the learning goal.</p></article>
-          <article class="scholar-card reveal d2"><span class="mini-tag">Bolter and Grusin</span><h3>Remediation</h3><p>Generative AI remediates the essay, search engine, tutor, and dialogue. This explains relations among media forms, while the dissertation's central question remains what those forms do to consciousness and learning.</p></article>
-          <article class="scholar-card reveal d3"><span class="mini-tag">Learning science</span><h3>The educational warrant</h3><p>Media ecology diagnoses the altered environment. Learning science explains why removing generation, retrieval, revision, and productive failure may matter educationally. One tradition cannot substitute for the other.</p></article>
+          <article class="scholar-card reveal">
+            <span class="mini-tag">Kittler</span>
+            <i class="fa-solid fa-server scholar-icon"></i>
+            <h3>Material and institutional conditions</h3>
+            <p>Media archaeology keeps hardware, data systems, platforms, and institutions visible. It strengthens the infrastructural dimension, but does not provide Ong's developmental account of consciousness.</p>
+          </article>
+          <article class="scholar-card reveal d1">
+            <span class="mini-tag">Hayles</span>
+            <i class="fa-solid fa-brain scholar-icon"></i>
+            <h3>Technogenesis and cognitive assemblages</h3>
+            <p>Distributed cognition challenges any simple claim that offloading is inherently harmful. Chapter Two must therefore distinguish productive human-tool assemblages from delegation that bypasses the learning goal.</p>
+          </article>
+          <article class="scholar-card reveal d2">
+            <span class="mini-tag">Bolter and Grusin</span>
+            <i class="fa-solid fa-shuffle scholar-icon"></i>
+            <h3>Remediation</h3>
+            <p>Generative AI remediates the essay, search engine, tutor, and dialogue. This explains relations among media forms, while the dissertation's central question remains what those forms do to consciousness and learning.</p>
+          </article>
+          <article class="scholar-card reveal d3">
+            <span class="mini-tag">Learning science</span>
+            <i class="fa-solid fa-book-open scholar-icon"></i>
+            <h3>The educational warrant</h3>
+            <p>Media ecology diagnoses the altered environment. Learning science explains why removing generation, retrieval, revision, and productive failure may matter educationally. One tradition cannot substitute for the other.</p>
+          </article>
         </div>
 
         <div class="defense-prompts theory-prompts reveal">
-          <details><summary>Why Ong instead of Stiegler, Hayles, or Kittler?</summary><div><p><strong>Defense answer:</strong> Ong remains the anchor because the study needs a developmental account of how dominant communication environments reorganize noetic life. Stiegler deepens technical memory and attention; Hayles complicates the argument through distributed cognition; Kittler foregrounds material and institutional infrastructure. Their differences discipline the framework rather than disappearing into it.</p></div></details>
-          <details><summary>Is this technological determinism?</summary><div><p><strong>Defense answer:</strong> No. The proposal treats technologies as environments with affordances, incentives, and pressures, not as autonomous causes with inevitable effects. The study investigates how educators and institutions interpret and redesign those conditions. Pedagogical and infrastructural friction are precisely claims about human and institutional agency.</p></div></details>
-          <details><summary>Are you using the literature only to validate your own framework?</summary><div><p><strong>Defense answer:</strong> Chapter Two preserves augmentation, accessibility, distributed-cognition, and anti-determinist counterarguments. Chapter Three then treats the framework as interpretive vocabulary whose fit, limits, and failures must be examined empirically. The framework is the object of disciplined scrutiny, not the conclusion the study must reach.</p></div></details>
+          <details>
+            <summary>Why Ong instead of Stiegler, Hayles, or Kittler?</summary>
+            <div>
+              <p><strong>Defense answer:</strong> Ong remains the anchor because the study needs a developmental account of how dominant communication environments reorganize noetic life. Stiegler deepens technical memory and attention; Hayles complicates the argument through distributed cognition; Kittler foregrounds material and institutional infrastructure. Their differences discipline the framework rather than disappearing into it.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Is this technological determinism?</summary>
+            <div>
+              <p><strong>Defense answer:</strong> No. The proposal treats technologies as environments with affordances, incentives, and pressures, not as autonomous causes with inevitable effects. The study investigates how educators and institutions interpret and redesign those conditions. Pedagogical and infrastructural friction are precisely claims about human and institutional agency.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Are you using the literature only to validate your own framework?</summary>
+            <div>
+              <p><strong>Defense answer:</strong> Chapter Two preserves augmentation, accessibility, distributed-cognition, and anti-determinist counterarguments. Chapter Three then treats the framework as interpretive vocabulary whose fit, limits, and failures must be examined empirically. The framework is the object of disciplined scrutiny, not the conclusion the study must reach.</p>
+            </div>
+          </details>
         </div>
 
         <div class="source-strip reveal" aria-label="Selected Chapter Two sources">
@@ -278,9 +344,7 @@
           <span>Kittler, <em>Discourse Networks</em> and <em>Gramophone, Film, Typewriter</em></span>
         </div>
       </div>
-    </section>
-
-    <!-- FRAMEWORK -->
+    </section><!-- FRAMEWORK -->
     <section class="band alt" id="framework">
       <div class="wrap">
         <span class="section-tag reveal">The response</span>
@@ -294,20 +358,20 @@
 
         <div class="framework-layout">
           <div>
-            <div class="stack">
+            <div class="stack" role="group" aria-label="Select a friction dimension to read its detail">
               <div class="stack-row">
-                <button class="dim d-noetic" data-dim="noetic" aria-selected="true"><span class="mn">The Head</span><span class="nm">Noetic</span></button>
-                <button class="dim d-rhetorical" data-dim="rhetorical" aria-selected="false"><span class="mn">The Room</span><span class="nm">Rhetorical</span></button>
-                <button class="dim d-existential" data-dim="existential" aria-selected="false"><span class="mn">The World</span><span class="nm">Existential</span></button>
+                <button class="dim d-noetic" data-dim="noetic" aria-current="true" aria-controls="dim-detail"><span class="mn">The Head</span><span class="nm">Noetic</span></button>
+                <button class="dim d-rhetorical" data-dim="rhetorical" aria-current="false" aria-controls="dim-detail"><span class="mn">The Room</span><span class="nm">Rhetorical</span></button>
+                <button class="dim d-existential" data-dim="existential" aria-current="false" aria-controls="dim-detail"><span class="mn">The World</span><span class="nm">Existential</span></button>
               </div>
               <div class="support-label"><i class="fa-solid fa-arrow-down-long"></i> rest on <i class="fa-solid fa-arrow-down-long"></i></div>
-              <button class="dim d-infra" data-dim="infrastructural" aria-selected="false">
+              <button class="dim d-infra" data-dim="infrastructural" aria-current="false" aria-controls="dim-detail">
                 <span class="mn">The System</span><span class="nm">Infrastructural friction</span>
                 <span class="base-note">policy, assessment, leadership, professional learning, and governance that let the other three be sustained</span>
               </button>
             </div>
           </div>
-          <div class="dim-detail" id="dim-detail" aria-live="polite"></div>
+          <div class="dim-detail" id="dim-detail" role="region" aria-label="Selected friction dimension" aria-live="polite"></div>
         </div>
       </div>
     </section>

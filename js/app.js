@@ -206,12 +206,28 @@
         '<p>' + s.body + '</p>' +
         '<p class="noetic-note">' + s.note + '</p>';
       $all(".arc-chip", rail).forEach(function (c) {
-        c.setAttribute("aria-selected", String(Number(c.getAttribute("data-stage")) === i));
+        var sel = Number(c.getAttribute("data-stage")) === i;
+        c.setAttribute("aria-selected", String(sel));
+        c.setAttribute("tabindex", sel ? "0" : "-1");
       });
     }
+    var chips = $all(".arc-chip", rail);
     rail.addEventListener("click", function (e) {
       var chip = e.target.closest(".arc-chip");
       if (chip) render(Number(chip.getAttribute("data-stage")));
+    });
+    rail.addEventListener("keydown", function (e) {
+      var cur = chips.indexOf(document.activeElement);
+      if (cur < 0) return;
+      var next = null;
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") next = (cur + 1) % chips.length;
+      else if (e.key === "ArrowLeft" || e.key === "ArrowUp") next = (cur - 1 + chips.length) % chips.length;
+      else if (e.key === "Home") next = 0;
+      else if (e.key === "End") next = chips.length - 1;
+      if (next === null) return;
+      e.preventDefault();
+      render(Number(chips[next].getAttribute("data-stage")));
+      chips[next].focus();
     });
     render(0);
   }
@@ -229,7 +245,7 @@
         '<div class="counter">' + d.counter + '</div>' +
         '<p>' + d.body + '</p>' +
         '<ul class="practices">' + d.practices.map(function (p) { return '<li>' + p + '</li>'; }).join("") + '</ul>';
-      buttons.forEach(function (b) { b.setAttribute("aria-selected", String(b.getAttribute("data-dim") === key)); });
+      buttons.forEach(function (b) { b.setAttribute("aria-current", String(b.getAttribute("data-dim") === key)); });
     }
     buttons.forEach(function (b) {
       b.addEventListener("click", function () { render(b.getAttribute("data-dim")); });
@@ -244,8 +260,10 @@
     var reflectEl = $("#sort-reflect");
     var state = {};
 
-    function segGroup(labels, cls, cardN, key) {
+    function segGroup(labels, cls, cardN, key, groupLabel) {
       var seg = el("div", "seg" + (cls ? " " + cls : ""));
+      seg.setAttribute("role", "group");
+      seg.setAttribute("aria-label", groupLabel + ", scenario " + cardN);
       labels.forEach(function (label, idx) {
         var b = el("button");
         b.type = "button";
@@ -292,15 +310,16 @@
       var text = el("p", "text"); text.textContent = c.t;
 
       var c1 = el("div", "control");
-      var q1 = el("div", "q"); q1.textContent = "Productive friction preserved";
-      c1.appendChild(q1); c1.appendChild(segGroup(FRICTION_LEVELS, "", c.n, "friction"));
+      var q1 = el("div", "q"); q1.textContent = "Productive friction preserved"; q1.setAttribute("aria-hidden", "true");
+      c1.appendChild(q1); c1.appendChild(segGroup(FRICTION_LEVELS, "", c.n, "friction", "Productive friction preserved"));
 
       var c2 = el("div", "control");
-      var q2 = el("div", "q"); q2.textContent = "Legitimate use of AI?";
-      c2.appendChild(q2); c2.appendChild(segGroup(LEGIT_LEVELS, "legit", c.n, "legit"));
+      var q2 = el("div", "q"); q2.textContent = "Legitimate use of AI?"; q2.setAttribute("aria-hidden", "true");
+      c2.appendChild(q2); c2.appendChild(segGroup(LEGIT_LEVELS, "legit", c.n, "legit", "Legitimate use of AI"));
 
       var note = el("div", "note");
       note.hidden = true;
+      note.setAttribute("aria-live", "polite");
       note.innerHTML = "<b>The framework asks:</b> " + c.note;
 
       card.appendChild(top);
@@ -322,6 +341,21 @@
     });
   }
 
+  /* ---------------------------------------------------------------- Accessibility */
+  function initA11y() {
+    // Font Awesome glyphs are decorative; hide them from assistive tech.
+    $all('[class*="fa-"]').forEach(function (i) { i.setAttribute("aria-hidden", "true"); });
+    // Tell screen-reader users which links open a new tab.
+    $all('a[target="_blank"]').forEach(function (a) {
+      if (!/opens in new tab/i.test(a.textContent)) {
+        a.insertAdjacentHTML("beforeend", '<span class="sr-only"> (opens in new tab)</span>');
+      }
+    });
+    // Announce card-sort progress politely as it changes.
+    var sc = $("#sort-count");
+    if (sc) { sc.setAttribute("role", "status"); sc.setAttribute("aria-live", "polite"); }
+  }
+
   function boot() {
     initDefenseShortcuts();
     initProgressAndNav();
@@ -330,6 +364,7 @@
     initArc();
     initFramework();
     initCardSort();
+    initA11y();
   }
 
   if (document.readyState === "loading") {
