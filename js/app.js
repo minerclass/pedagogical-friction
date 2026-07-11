@@ -44,8 +44,9 @@
       color: "var(--noetic)",
       tag: "The Head",
       name: "Noetic friction",
-      counter: "Counterpart to noetic displacement",
-      body: "The internal cognitive resistance of turning information into understanding: comprehending a hard text, synthesizing competing sources, building an argument from evidence, and revising one's own thinking when it proves inadequate.",
+      id: "noetic",
+      title: "Noetic Friction",
+      body: "The internal noetic resistance of turning information into understanding: comprehending a hard text, synthesizing competing sources, building an argument from evidence, and revising one's own thinking when it is found inadequate.",
       practices: ["generation before solution", "retrieval practice", "annotated reading", "slow writing", "argument mapping", "reflection before AI use"]
     },
     rhetorical: {
