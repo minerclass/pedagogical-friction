@@ -8,7 +8,7 @@
 :root {
   --ink: #15202b;
   --ink-soft: #33414f;
-  --ink-faint: #6a7683;
+  --ink-faint: #5b6570;
   --paper: #f7f4ee;
   --paper-2: #efeae0;
   --paper-3: #e7e0d3;
@@ -450,7 +450,7 @@ img { max-width: 100%; }
 }
 .argument-chain article p.theorists {
   font-size: 0.82rem;
-  color: var(--gold);
+  color: #8c6014;
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
@@ -718,7 +718,7 @@ img { max-width: 100%; }
 .method-compare article.chosen { background: var(--white); border: 3px solid var(--gold); transform: translateY(-8px); }
 .method-compare h3 { margin: 0.4rem 0 0.8rem; font-size: 1.2rem; }
 .method-compare p { font-size: 0.9rem; margin: 0 0 0.75rem; }
-.method-compare .chosen h3, .method-compare .chosen p { color: var(--ink); }
+.method-compare .chosen h3, .method-compare .chosen p, .method-compare .chosen .method-name { color: var(--ink); }
 .method-compare .verdict { border-top: 1px solid rgba(255,255,255,0.2); padding-top: 0.7rem; color: var(--gold); font-weight: 700; }
 .method-compare .chosen .verdict { border-color: var(--line); color: var(--accent); }
 .method-callout {
@@ -733,7 +733,7 @@ img { max-width: 100%; }
 .outside-fence { margin-top: 1rem; padding: 0.9rem 1rem; border: 1px dashed rgba(255,255,255,0.25); border-radius: var(--radius-sm); }
 .method-jobs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2.5rem; }
 .method-jobs > div { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: var(--radius); padding: 1.2rem; }
-.method-jobs .mini-tag { color: var(--gold); }
+.method-jobs .mini-tag { color: #cba043; }
 .method-jobs h3 { font-size: 1.08rem; margin: 0.35rem 0 0.55rem; }
 .method-jobs p { font-size: 0.88rem; margin: 0; }
 .disconfirmation-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
