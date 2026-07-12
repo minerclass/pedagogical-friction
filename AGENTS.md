@@ -13,8 +13,7 @@ It is orientation, not a findings report, and it collects no data.
 Some earlier sites carry outdated wording. This repo uses the **current** draft's language:
 
 - **Design:** *qualitative-dominant convergent mixed methods case study* (QUAL + quan).
-- **Case study tradition:** **Merriam's interpretive, constructivist tradition.** Do **not** write
-  "applied," "collective," "instrumental," or "Stake-aligned." Stake and Yin appear only as contrast
+- **Case study tradition:** **Merriam's interpretive, constructivist tradition.** Do **not** describe the case study as "applied," "collective," "instrumental," or "Stake-aligned." Stake and Yin appear only as contrast <!-- terminology-allow -->
   lenses the proposal argues against.
 - **Case boundary:** bounded **by the phenomenon** (K-12 educator and institutional sensemaking about
   pedagogical friction) and by the post-generative-AI period, **not by a single site**. The Pedagogical

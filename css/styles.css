@@ -237,7 +237,7 @@ img { max-width: 100%; }
   background: var(--white); border: 1px solid var(--line); border-left: 5px solid var(--accent);
   border-radius: var(--radius); padding: 1.8rem 2rem; box-shadow: var(--shadow); min-height: 150px;
 }
-.arc-detail .era { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--gold); font-weight: 700; }
+.arc-detail .era { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; color: #8c6014; font-weight: 700; }
 .arc-detail h3 { margin: 0.3rem 0 0.7rem; font-size: 1.5rem; }
 .arc-detail p { margin: 0 0 0.7rem; color: var(--ink-soft); font-size: 1.05rem; }
 .arc-detail .noetic-note {
@@ -296,7 +296,7 @@ img { max-width: 100%; }
 .dim.d-infra .base-note { font-size: 0.78rem; opacity: 0.85; margin-top: 0.3rem; font-family: var(--sans); font-weight: 400; }
 .stack .support-label {
   text-align: center; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.12em;
-  color: var(--ink-faint); margin: 0.1rem 0;
+  color: #4c5b6c; margin: 0.1rem 0;
 }
 .dim-detail {
   background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
@@ -762,7 +762,7 @@ img { max-width: 100%; }
 .eco .eco-ico { width: 36px; height: 36px; flex: none; border-radius: 9px; display: grid; place-items: center; background: var(--paper-2); color: var(--accent); font-size: 1rem; }
 .eco h3 { font-size: 1.02rem; margin: 0; }
 .eco p { font-size: 0.86rem; color: var(--ink-soft); margin: 0; }
-.eco .eco-kind { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); font-weight: 700; }
+.eco .eco-kind { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: #8c6014; font-weight: 700; }
 .eco-group-label { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); margin: 2rem 0 0.2rem; }
 
 /* ------------------------------------------------------------------ Footer */
