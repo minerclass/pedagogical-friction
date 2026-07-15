@@ -45,6 +45,7 @@
       tag: "The Head",
       name: "Noetic friction",
       id: "noetic",
+      counter: "Counterpart to noetic displacement",
       title: "Noetic Friction",
       body: "The internal noetic resistance of turning information into understanding: comprehending a hard text, synthesizing competing sources, building an argument from evidence, and revising one's own thinking when it is found inadequate.",
       practices: ["generation before solution", "retrieval practice", "annotated reading", "slow writing", "argument mapping", "reflection before AI use"]
@@ -117,9 +118,9 @@
             '<p>Go to the Stiegler connection, adjacent theorists, and likely committee questions about Ong, Stiegler, Hayles, Kittler, and technological determinism.</p>' +
           '</a>' +
           '<a class="eco" href="#defense" style="background:#fff;">' +
-            '<div class="eco-top"><span class="eco-ico"><i class="fa-solid fa-chalkboard-user"></i></span><h3>Chapter 3: Merriam methodology defense</h3></div>' +
+            '<div class="eco-top"><span class="eco-ico"><i class="fa-solid fa-chalkboard-user"></i></span><h3>Chapter 3: Constructivist methodology defense</h3></div>' +
             '<span class="eco-kind">Defense walk</span>' +
-            '<p>Go to the Merriam, Stake, and Yin comparison; case boundaries; mixed-methods alignment; and disconfirmation safeguards.</p>' +
+            '<p>Go to constructivist sensemaking, qualitative analysis, evidence roles, mixed-methods alignment, and credibility safeguards.</p>' +
           '</a>' +
         '</div>' +
       '</div>';
