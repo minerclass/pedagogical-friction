@@ -12,12 +12,11 @@ It is orientation, not a findings report, and it collects no data.
 
 Some earlier sites carry outdated wording. This repo uses the **current** draft's language:
 
-- **Design:** *qualitative-dominant convergent mixed methods case study* (QUAL + quan).
-- **Case study tradition:** **Merriam's interpretive, constructivist tradition.** Do **not** describe the case study as "applied," "collective," "instrumental," or "Stake-aligned." Stake and Yin appear only as contrast <!-- terminology-allow -->
-  lenses the proposal argues against.
-- **Case boundary:** bounded **by the phenomenon** (K-12 educator and institutional sensemaking about
-  pedagogical friction) and by the post-generative-AI period, **not by a single site**. The Pedagogical
-  Friction Framework is the interpretive **lens**, not the boundary of the case.
+- **Design:** *qualitative-dominant convergent mixed methods* (QUAL + quan) grounded in constructivist qualitative inquiry.
+- **Interpretive stance:** Participant meaning is situated and co-constructed. The Pedagogical Friction Framework is a sensitizing and revisable lens, not a container for the inquiry.
+- **Participants:** Classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students.
+- **Evidence hierarchy:** Interviews, card-sort explanations, documents, and open-ended survey responses provide the qualitative core. Closed-ended survey items and NCES/RAND data provide supporting quantitative context. AI-generated texts are a distinct nonparticipant comparison source within the study.
+- **Qualitative analysis:** Use first-pass coding close to participant language, second-pass theme development, reflexive memoing, peer debriefing, and attention to discrepant accounts. Avoid mechanical thresholds for theme or framework revision.
 - **Five media-ecology stages:** primary orality, literacy, secondary orality, **algorithmic secondary
   orality** (Miner, mid-2000s to early 2020s), **tertiary algorithmicity** (Miner, generative-AI present).
 - **Three pressures of tertiary algorithmicity:** noetic displacement, rhetorical saturation, existential
@@ -26,16 +25,11 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
   room, existential / world) plus **infrastructural friction (system) as the conditioning layer** that
   enables or constrains the other three. Do not present the four as co-equal; infrastructural is the base.
 - **Equity distinction:** **productive vs. exclusionary** friction, cutting across all dimensions.
-- **Sampling (current draft):** roughly 12 to 16 practitioner interviews (about 6 to 8 classroom-facing
-  educators, 3 to 4 building administrators, 3 to 4 district or system leaders), up to 4 university
-  students as a **contextual learner-perspective supplement**, and about 200 survey respondents.
 - **Chapter Two defense framing:** present the literature review as an intellectual genealogy across media
   ecology, critical algorithm and platform studies, learning science, literacy and authorship, and K-12
   governance and adoption. Stiegler is a complementary bridge, not the organizing anchor.
-- **Chapter Three defense framing:** Merriam supplies the primary interpretive case-study logic. Stake and
-  Yin remain comparison points that clarify why Merriam fits the phenomenon-bounded, theory-building case.
-- **Citations:** Miner **2026a** = qualifying paper (framework source); Miner **2026b** = Zenodo open-data
-  companion (RAND/Gallup + NCES evidence arc); Miner **2026c** = the *i.e.: inquiry in education* article.
+- **Chapter Three defense framing:** constructivism explains how meaning is understood, sensemaking explains how participants interpret ambiguous conditions, and thematic analysis explains how patterns are developed across accounts.
+- **Citations:** The completed qualifying paper is incorporated into the dissertation's intellectual foundation rather than treated as a separate authority. The Zenodo open-data companion and the *i.e.: inquiry in education* article remain distinct public artifacts.
 
 ## Data and privacy restrictions
 

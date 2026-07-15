@@ -2,7 +2,7 @@
 
 A visual, single-page companion to Micah J. Miner's dissertation proposal,
 *Pedagogical Friction in the Age of Generative AI and Tertiary Algorithmicity: A
-Qualitative-Dominant Convergent Mixed Methods Case Study* (Ed.D. in Curriculum,
+Qualitative-Dominant Convergent Mixed Methods Study* (Ed.D. in Curriculum,
 Advocacy & Policy, National Louis University).
 
 Where the [Pedagogical Friction Studio](https://minerclass.github.io/dissertation-proposal-studio/)
@@ -22,7 +22,7 @@ rehearsal path.
 - **A hub back into the ecosystem.** The closing section links the companion sites, the defense
   studio, the published article, the open data, and the learning games.
 - **A defense rehearsal path.** Expandable prompts connect Stiegler and adjacent Chapter Two traditions
-  to the framework, then rehearse the Merriam choice, case fence, mixed-methods fit, and disconfirmation plan.
+  to the framework, then rehearse constructivist sensemaking, the evidence hierarchy, qualitative analysis, and mixed-methods fit.
 
 ## Structure
 
