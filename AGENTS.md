@@ -16,7 +16,7 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
 - **Interpretive stance:** Participant meaning is situated and co-constructed. The Pedagogical Friction Framework is a sensitizing and revisable lens, not a container for the inquiry.
 - **Participants:** Classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students.
 - **Evidence hierarchy:** Interviews, card-sort explanations, documents, and open-ended survey responses provide the qualitative core. Closed-ended survey items and NCES/RAND data provide supporting quantitative context. AI-generated texts are a distinct nonparticipant comparison source within the study.
-- **Qualitative analysis:** Use first-pass coding close to participant language, second-pass theme development, reflexive memoing, peer debriefing, and attention to discrepant accounts. Avoid mechanical thresholds for theme or framework revision.
+- **Qualitative analysis:** Use first-cycle coding close to participant language, second-cycle theme development, reflexive memoing, peer debriefing, and attention to discrepant accounts. Avoid mechanical thresholds for theme or framework revision.
 - **Five media-ecology stages:** primary orality, literacy, secondary orality, **algorithmic secondary
   orality** (Miner, mid-2000s to early 2020s), **tertiary algorithmicity** (Miner, generative-AI present).
 - **Three pressures of tertiary algorithmicity:** noetic displacement, rhetorical saturation, existential
