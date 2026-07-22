@@ -31,6 +31,13 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
 - **Chapter Three defense framing:** constructivism explains how meaning is understood, sensemaking explains how participants interpret ambiguous conditions, and thematic analysis explains how patterns are developed across accounts.
 - **Citations:** The completed qualifying paper is incorporated into the dissertation's intellectual foundation rather than treated as a separate authority. The Zenodo open-data companion and the *i.e.: inquiry in education* article remain distinct public artifacts.
 
+## Change history
+
+`AGENT_LOG.md` in this repository is the append-only record of agent-assisted
+changes. Read it before editing, and add an entry when you change anything.
+This work happens from more than one machine, so local notes are not a reliable
+history. Sibling dissertation repositories carry their own `AGENT_LOG.md`.
+
 ## Data and privacy restrictions
 
 - Do not fabricate citations, quotations, page numbers, or findings.
