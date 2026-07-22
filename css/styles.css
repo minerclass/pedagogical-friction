@@ -18,6 +18,8 @@
   --accent: #7c2d12;        /* burnt sienna */
   --accent-2: #1d4e6b;      /* slate blue */
   --gold: #b5852a;
+  /* Text-safe gold: 4.7:1 on --paper-2, 5.7:1 on --white. Use for small gold text. */
+  --gold-text: #876016;
 
   /* Friction dimension colors, kept consistent with sibling sites */
   --noetic: #1d4e6b;         /* head  */
@@ -231,7 +233,7 @@ img { max-width: 100%; }
 .arc-chip .cap { font-size: 0.8rem; font-weight: 600; max-width: 14ch; color: var(--ink-soft); line-height: 1.25; }
 .arc-chip[aria-selected="true"] .cap { color: var(--accent); }
 .arc-chip .miner-tag {
-  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); font-weight: 700;
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold-text); font-weight: 700;
 }
 .arc-detail {
   background: var(--white); border: 1px solid var(--line); border-left: 5px solid var(--accent);
