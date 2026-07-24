@@ -71,7 +71,7 @@
       tag: "The System",
       name: "Infrastructural friction",
       counter: "The condition of possibility for the other three",
-      body: "The structural and policy condition that makes the learner-facing dimensions sustainable or impossible: AI policy, assessment expectations, professional learning, privacy governance, approved-tool ecosystems, leadership language, and schedules. When the system names productive struggle as a protected value, friction-preserving pedagogy can be designed with support rather than carried alone.",
+      body: "The institutional environment is not a neutral backdrop. It actively constrains or enables whether the learner-facing dimensions can be sustained through AI policy, assessment expectations, professional learning, privacy governance, approved-tool ecosystems, leadership language, and schedules. Naming this system layer as friction keeps it inside the study's design vocabulary while distinguishing it from individual cognitive labor.",
       practices: ["AI policy", "assessment latitude", "professional learning", "leadership language", "governance", "protected time"]
     }
   };

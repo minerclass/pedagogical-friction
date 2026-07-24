@@ -19,6 +19,22 @@ here, in the repository, not in a local file.
 
 ---
 
+## 2026-07-24 - Current-proposal and agentic-artifact alignment
+
+Agent: OpenAI Codex, working from the revised Chapters 1-3 proposal and a
+cross-site consistency review.
+
+- Updated the proposal-companion date and added the explicit distinction
+  between Stalder's curatorial algorithmicity and tertiary algorithmicity's
+  extension into symbolic generation.
+- Preserved the required nonparticipant comparison by stating that at least one
+  bounded, prespecified agentic-artifact task remains even if systems, task
+  count, or repeated runs are scaled.
+- Clarified why the institutional layer is named infrastructural friction and
+  made the artifact comparison open to disconfirming or counter-friction
+  qualities.
+- Kept the site proposal-stage. No participant findings, data, or collection
+  features were added.
 ## 2026-07-22 - Weekly Pages review, accessibility and CI repair
 
 Agent: Claude Opus 4.8 (Claude Code), working from a weekly review of the

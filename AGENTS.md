@@ -15,7 +15,7 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
 - **Design:** *qualitative-dominant convergent mixed methods* (QUAL + quan) grounded in constructivist qualitative inquiry.
 - **Interpretive stance:** Participant meaning is situated and co-constructed. The Pedagogical Friction Framework is a sensitizing and revisable lens, not a container for the inquiry.
 - **Participants:** Classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students.
-- **Evidence hierarchy:** Interviews, card-sort explanations, documents, and open-ended survey responses provide the qualitative core. Closed-ended survey items and NCES/RAND data provide supporting quantitative context. AI-generated texts are a distinct nonparticipant comparison source within the study.
+- **Evidence hierarchy:** Role-based practitioner interviews and the educator survey form the analytic core. Retrospective university-student accounts, documents, national datasets, and the AI-generated text and agentic-artifact comparison supplement that core. The distinct nonparticipant comparison retains at least one bounded, prespecified agentic-artifact task even if systems, task count, or repeated runs are scaled.
 - **Qualitative analysis:** Use first-cycle coding close to participant language, second-cycle theme development, reflexive memoing, peer debriefing, and attention to discrepant accounts. Avoid mechanical thresholds for theme or framework revision.
 - **Five media-ecology stages:** primary orality, literacy, secondary orality, **algorithmic secondary
   orality** (Miner, mid-2000s to early 2020s), **tertiary algorithmicity** (Miner, generative-AI present).
@@ -23,11 +23,12 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
   abstraction.
 - **Framework:** Pedagogical Friction with three **learner-facing** dimensions (noetic / head, rhetorical /
   room, existential / world) plus **infrastructural friction (system) as the conditioning layer** that
-  enables or constrains the other three. Do not present the four as co-equal; infrastructural is the base.
+  enables or constrains the other three. The institutional environment is not a neutral backdrop. Do not present the four as co-equal; infrastructural is the base.
 - **Equity distinction:** **productive vs. exclusionary** friction, cutting across all dimensions.
 - **Chapter Two defense framing:** present the literature review as an intellectual genealogy across media
   ecology, critical algorithm and platform studies, learning science, literacy and authorship, and K-12
-  governance and adoption. Stiegler is a complementary bridge, not the organizing anchor.
+  governance and adoption. Stiegler is a complementary bridge, not the organizing anchor. Distinguish Stalder's
+  curatorial account of algorithmicity from tertiary algorithmicity's extension into symbolic generation.
 - **Chapter Three defense framing:** constructivism explains how meaning is understood, sensemaking explains how participants interpret ambiguous conditions, and thematic analysis explains how patterns are developed across accounts.
 - **Citations:** The completed qualifying paper is incorporated into the dissertation's intellectual foundation rather than treated as a separate authority. The Zenodo open-data companion and the *i.e.: inquiry in education* article remain distinct public artifacts.
 

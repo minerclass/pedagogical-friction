@@ -22,7 +22,8 @@ rehearsal path.
 - **A hub back into the ecosystem.** The closing section links the companion sites, the defense
   studio, the published article, the open data, and the learning games.
 - **A defense rehearsal path.** Expandable prompts connect Stiegler and adjacent Chapter Two traditions
-  to the framework, then rehearse constructivist sensemaking, the evidence hierarchy, qualitative analysis, and mixed-methods fit.
+  to the framework, then rehearse constructivist sensemaking, the evidence hierarchy, qualitative analysis,
+  mixed-methods fit, and the retained bounded agentic-artifact comparison.
 
 ## Structure
 
