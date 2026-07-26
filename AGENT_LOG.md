@@ -19,6 +19,39 @@ here, in the repository, not in a local file.
 
 ---
 
+## 2026-07-25 - Miner citation lettering retired to the submitted two-entry scheme
+
+Agent: Claude Opus 5 (Claude Code), working from the final submitted Chapters 1-3
+Google Doc and a cross-repo terminology sweep.
+
+- The submitted reference list contains exactly two Miner entries. Retired the old
+  three-way lettering (2026a = qualifying paper, 2026b = Zenodo, 2026c = article)
+  and swapped the site to match the draft: **2026a = the Zenodo open-data
+  companion**, **2026b = the i.e.: inquiry in education article**, which is the
+  framework source. There is no 2026c.
+- Four call sites changed: `index.html` article card (was 2026c), `index.html`
+  Zenodo card (was 2026b), `index.html` footer "framework and terminology follow"
+  (was 2026a), and the `js/app.js` header comment (was 2026a). Done as an atomic
+  placeholder swap so 2026a and 2026b could not collide mid-edit.
+- `AGENTS.md` now states the mapping explicitly rather than describing the
+  artifacts in prose, and adds a do-not-reintroduce list for the dropped
+  case-study framing (case study, Merriam, Stake, Yin, bounded case, embedded
+  role groups), with an explicit carve-out that "bounded, prespecified
+  agentic-artifact task" is unrelated and correct.
+- Pulled 8 commits from origin before editing; the local clone had been stale and
+  most Chapter Three drift was already fixed remotely by the 2026-07-24 entry.
+  README needed no change, its title line was already correct.
+- Verified by serving locally: no console errors; the Ong timeline selects each of
+  the five stages with exactly one selected at rest; the card sort places a
+  scenario, reveals its note, and advances the "n of 10 placed" counter; and both
+  ecosystem citation cards plus the footer render the new letters with no 2026c
+  anywhere. No content or findings added; the site remains proposal-stage.
+- Correction for the next agent: the AGENTS.md validation checklist says
+  "framework dimensions switch," but the four dimensions are static side-by-side
+  panels (`.dim.d-noetic` through `.dim.d-infra`), not a switcher. Nothing is
+  broken; the checklist line is inaccurate and is left as-is pending a decision
+  on whether to reword it or make the dimensions interactive.
+
 ## 2026-07-24 - Current-proposal and agentic-artifact alignment
 
 Agent: OpenAI Codex, working from the revised Chapters 1-3 proposal and a

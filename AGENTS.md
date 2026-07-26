@@ -8,11 +8,16 @@ A public, single-page immersive companion to Micah Miner's dissertation proposal
 through Chapters One to Three visually and links back into the `minerclass` dissertation ecosystem.
 It is orientation, not a findings report, and it collects no data.
 
-## Canonical terminology (current as of the July 2026 draft, keep sibling sites consistent)
+## Canonical terminology (the final submitted Chapters 1–3, July 2026; keep sibling sites consistent)
 
-Some earlier sites carry outdated wording. This repo uses the **current** draft's language:
+Some earlier sites carry outdated wording. This repo uses the **final submitted** draft's language:
 
-- **Design:** *qualitative-dominant convergent mixed methods* (QUAL + quan) grounded in constructivist qualitative inquiry.
+- **Design:** *qualitative-dominant convergent mixed methods study* (QUAL + quan) grounded in
+  constructivist qualitative inquiry, per Creswell and Plano Clark (2018).
+  **The case-study framing was dropped from the submitted draft.** Do not reintroduce "case study,"
+  Merriam, Stake, Yin, "bounded case," "case boundary," or "embedded role groups." The study is
+  bounded by phenomenon, participant roles, and period, and it is not described as a case.
+  (Note: "bounded, prespecified agentic-artifact task" is unrelated and correct — leave it.)
 - **Interpretive stance:** Participant meaning is situated and co-constructed. The Pedagogical Friction Framework is a sensitizing and revisable lens, not a container for the inquiry.
 - **Participants:** Classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students.
 - **Evidence hierarchy:** Role-based practitioner interviews and the educator survey form the analytic core. Retrospective university-student accounts, documents, national datasets, and the AI-generated text and agentic-artifact comparison supplement that core. The distinct nonparticipant comparison retains at least one bounded, prespecified agentic-artifact task even if systems, task count, or repeated runs are scaled.
@@ -30,7 +35,15 @@ Some earlier sites carry outdated wording. This repo uses the **current** draft'
   governance and adoption. Stiegler is a complementary bridge, not the organizing anchor. Distinguish Stalder's
   curatorial account of algorithmicity from tertiary algorithmicity's extension into symbolic generation.
 - **Chapter Three defense framing:** constructivism explains how meaning is understood, sensemaking explains how participants interpret ambiguous conditions, and thematic analysis explains how patterns are developed across accounts.
-- **Citations:** The completed qualifying paper is incorporated into the dissertation's intellectual foundation rather than treated as a separate authority. The Zenodo open-data companion and the *i.e.: inquiry in education* article remain distinct public artifacts.
+- **Citations, current lettering:** The submitted proposal's reference list contains exactly two Miner
+  entries, and this repo must match them:
+  - **Miner (2026a)** = the Zenodo open-data companion, *K–12 teacher AI evidence arc, 2024–2026*.
+  - **Miner (2026b)** = the *i.e.: inquiry in education* article, *When the output looks like learning*.
+    This is the **framework source** — cite it for pedagogical friction and tertiary algorithmicity.
+  - **There is no Miner (2026c).** Earlier versions of this repo used a three-way scheme
+    (2026a = qualifying paper, 2026b = Zenodo, 2026c = article). That lettering is retired. The
+    completed qualifying paper is incorporated into the dissertation's intellectual foundation
+    rather than cited as a separate authority.
 
 ## Change history
 

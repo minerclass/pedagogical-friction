@@ -1,7 +1,7 @@
 /* =========================================================================
    Pedagogical Friction, Immersive Companion, interactions
    Vanilla JS, no dependencies. All content is authored from the proposal
-   (Chapters 1 to 3) and follows Miner (2026a) terminology.
+   (Chapters 1 to 3) and follows Miner (2026b) terminology.
    ========================================================================= */
 (function () {
   "use strict";
