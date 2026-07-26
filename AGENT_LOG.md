@@ -19,6 +19,19 @@ here, in the repository, not in a local file.
 
 ---
 
+## 2026-07-25 - Link The Friction Atlas into the Explore and play group
+
+Agent: Claude Opus 5 (Claude Code).
+
+- Added a card for `friction-atlas`, the new seven-station interactive Chapter Two
+  literature review, as the first item in the "Explore and play" ecosystem group.
+- The group previously held four cards using stagger classes reveal, d1, d2, d3.
+  A fifth needed a delay class that did not exist, so the group was reordered to
+  reveal, d1, d2, d3, d4 and `.reveal.d4 { transition-delay: 0.32s; }` was added
+  to `css/styles.css` beside the existing d1 to d3 rules.
+- Verified locally: no console errors, the card renders with the correct href and
+  kind label, and the five cards carry the expected stagger classes in order.
+
 ## 2026-07-25 - Miner citation lettering retired to the submitted two-entry scheme
 
 Agent: Claude Opus 5 (Claude Code), working from the final submitted Chapters 1-3

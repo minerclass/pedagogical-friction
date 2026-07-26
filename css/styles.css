@@ -195,6 +195,7 @@ img { max-width: 100%; }
 .reveal.d1 { transition-delay: 0.08s; }
 .reveal.d2 { transition-delay: 0.16s; }
 .reveal.d3 { transition-delay: 0.24s; }
+.reveal.d4 { transition-delay: 0.32s; }
 
 /* ------------------------------------------------------------------ Stat band */
 .stats {
