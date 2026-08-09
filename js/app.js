@@ -76,6 +76,30 @@
     }
   };
 
+  var RESEARCH_QUESTION_DETAILS = {
+    RQ1: {
+      title: "Sensemaking of Changes to Teaching and Learning",
+      evidence: "Classroom-facing educator interviews and card sort; building-level administrator interviews; district or system-level leader interviews; classroom-facing survey items; adult university-student retrospective accounts.",
+      analysis: "Two-cycle thematic analysis; descriptive survey statistics; temporal coding of retrospective student accounts.",
+      integration: "RQ1 Joint Display (Expected Teaching Impact and Sensemaking).",
+      boundary: "Adult university-student accounts provide direct learner-perspective evidence for RQ1. AI-generated texts remain a separately labeled nonparticipant comparison and are not evidence of human experience."
+    },
+    RQ2: {
+      title: "Institutional Response and Governance Conditions",
+      evidence: "Classroom-facing educator interviews; building-level administrator interviews; district or system-level leader interviews; institutional documents; infrastructural survey items; NCES School Pulse Panel; RAND American Educator Panel. Adult university-student accounts may provide context.",
+      analysis: "Thematic analysis; cross-role synthesis; descriptive and disaggregated statistics; structural-context analysis.",
+      integration: "RQ2 Joint Display (Infrastructural and Policy Conditions).",
+      boundary: "Adult university-student accounts may provide context for RQ2 without being equated with professional role groups. NCES and RAND provide structural context rather than participant meaning. No evidence source validates or overrides another."
+    },
+    RQ3: {
+      title: "Friction-Preserving Supports and Leadership Approaches",
+      evidence: "Cross-role synthesis across classroom-facing educators, building-level administrators, and district or system-level leaders; policy document analysis; survey policy and readiness items. Adult university-student accounts may provide context.",
+      analysis: "Framework-informed policy synthesis grounded in role-based patterns and structural-context evidence.",
+      integration: "Joint displays synthesize RQ1 and RQ2 themes with supporting structural context.",
+      boundary: "Adult university-student accounts may provide context for RQ3 without being equated with professional role groups. The framework sensitizes attention but does not prescribe findings."
+    }
+  };
+
   var CARDS = [
     { n: 1, v: "Teacher", t: "Students use AI to brainstorm possible claims, then draft the essay without AI.", note: "The drafting, the noetic core, stays with the student; AI touches only idea generation. The framework asks whether generating claims was itself the skill the task meant to build." },
     { n: 2, v: "Teacher", t: "A student submits an AI-assisted essay and then defends the thesis in a one-on-one conference.", note: "The oral defense recovers rhetorical and existential friction the artifact alone no longer guarantees. Understanding is tested at the point of accountability." },
@@ -343,6 +367,67 @@
     });
   }
 
+  function initResearchQuestions() {
+    var grid = $("#rq-grid");
+    var detail = $("#rq-detail");
+    if (!grid || !detail) return;
+
+    var buttons = $all(".rq[data-rq-id]", grid);
+
+    function detailBlock(label, text) {
+      var block = el("div", "rq-detail-block");
+      var heading = el("h5");
+      var body = el("p");
+      heading.textContent = label;
+      body.textContent = text;
+      block.appendChild(heading);
+      block.appendChild(body);
+      return block;
+    }
+
+    function selectResearchQuestion(id) {
+      var item = RESEARCH_QUESTION_DETAILS[id];
+      if (!item) return;
+
+      buttons.forEach(function (button) {
+        var selected = button.getAttribute("data-rq-id") === id;
+        button.classList.toggle("active", selected);
+        button.setAttribute("aria-pressed", selected ? "true" : "false");
+      });
+
+      detail.innerHTML = "";
+      detail.setAttribute("aria-labelledby", "rq-choice-" + id);
+
+      var head = el("div", "rq-detail-head");
+      var badge = el("span", "rq-n");
+      var title = el("h4");
+      badge.textContent = id;
+      title.textContent = item.title;
+      head.appendChild(badge);
+      head.appendChild(title);
+
+      var blocks = el("div", "rq-detail-grid");
+      blocks.appendChild(detailBlock("Participants and evidence", item.evidence));
+      blocks.appendChild(detailBlock("Analysis", item.analysis));
+      blocks.appendChild(detailBlock("Integration", item.integration));
+
+      var boundary = el("p", "rq-boundary");
+      boundary.textContent = "Interpretive boundary: " + item.boundary;
+
+      detail.appendChild(head);
+      detail.appendChild(blocks);
+      detail.appendChild(boundary);
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        selectResearchQuestion(button.getAttribute("data-rq-id"));
+      });
+    });
+
+    selectResearchQuestion("RQ1");
+  }
+
   /* ---------------------------------------------------------------- Accessibility */
   function initA11y() {
     // Font Awesome glyphs are decorative; hide them from assistive tech.
@@ -365,6 +450,7 @@
     initCounters();
     initArc();
     initFramework();
+    initResearchQuestions();
     initCardSort();
     initA11y();
   }

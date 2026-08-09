@@ -10,7 +10,7 @@
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=20260809a" />
 </head>
 <body>
   <div class="status-banner" role="region" aria-label="Site status" style="background:#fff8e8; color:#4f3617; text-align:center; padding:8px; font-size:0.85rem; border-bottom:1px solid #d9c08d;">
@@ -472,12 +472,20 @@
           <div class="fact"><div class="k">Supporting context</div><div class="v">Closed-ended survey items and NCES/RAND datasets</div></div>
         </div>
 
-        <h3 class="reveal" style="margin:2.6rem 0 0; font-size:1.3rem;">Three research questions</h3>
-        <div class="rq-grid">
-          <article class="rq reveal"><span class="rq-n">RQ1</span><p>How do classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students make sense of the ways generative AI changes the effort, dialogue, authorship, judgment, and participation involved in teaching and learning?</p></article>
-          <article class="rq reveal d1"><span class="rq-n">RQ2</span><p>How do educators and school-system leaders make sense of and respond to the policy, professional-learning, assessment, access, and governance conditions surrounding generative AI?</p></article>
-          <article class="rq reveal d2"><span class="rq-n">RQ3</span><p>What language, assessment expectations, instructional practices, professional supports, and leadership approaches do educators and school-system leaders identify as important for preserving forms of friction that support learning while reducing unnecessary barriers?</p></article>
+        <h3 class="reveal" style="margin:2.6rem 0 0; font-size:1.3rem;">Explore the three research questions</h3>
+        <p class="reveal rq-instruction" id="rq-instruction">Select a question to trace its current participant, evidence, analysis, and integration alignment from the July 24, 2026 Chapters 1–3 proposal.</p>
+        <div class="rq-grid" id="rq-grid" aria-describedby="rq-instruction">
+          <button type="button" id="rq-choice-RQ1" class="rq reveal active" data-rq-id="RQ1" aria-pressed="true" aria-controls="rq-detail">
+            <span class="rq-n">RQ1</span><span class="rq-title">Sensemaking of Changes to Teaching and Learning</span><span class="rq-question">How do classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students make sense of the ways generative AI changes the effort, dialogue, authorship, judgment, and participation involved in teaching and learning?</span><span class="rq-open">Explore evidence and analysis</span>
+          </button>
+          <button type="button" id="rq-choice-RQ2" class="rq reveal d1" data-rq-id="RQ2" aria-pressed="false" aria-controls="rq-detail">
+            <span class="rq-n">RQ2</span><span class="rq-title">Institutional Response and Governance Conditions</span><span class="rq-question">How do educators and school-system leaders make sense of and respond to the policy, professional-learning, assessment, access, and governance conditions surrounding generative AI?</span><span class="rq-open">Explore evidence and analysis</span>
+          </button>
+          <button type="button" id="rq-choice-RQ3" class="rq reveal d2" data-rq-id="RQ3" aria-pressed="false" aria-controls="rq-detail">
+            <span class="rq-n">RQ3</span><span class="rq-title">Friction-Preserving Supports and Leadership Approaches</span><span class="rq-question">What language, assessment expectations, instructional practices, professional supports, and leadership approaches do educators and school-system leaders identify as important for preserving forms of friction that support learning while reducing unnecessary barriers?</span><span class="rq-open">Explore evidence and analysis</span>
+          </button>
         </div>
+        <section class="rq-detail reveal" id="rq-detail" aria-live="polite" aria-labelledby="rq-choice-RQ1"></section>
 
         <h3 class="reveal" style="margin:2.6rem 0 0; font-size:1.3rem;">Evidence with distinct roles</h3>
         <div class="flow reveal">
@@ -627,6 +635,6 @@
     </p>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=20260809a"></script>
 </body>
 </html>

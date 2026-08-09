@@ -19,6 +19,23 @@ here, in the repository, not in a local file.
 
 ---
 
+## 2026-08-09 - Interactive research-question alignment
+
+Agent: OpenAI Codex, working from the July 24, 2026 Chapters 1-3 Google Doc.
+
+- Kept the proposal's current RQ1-RQ3 wording verbatim and changed the three
+  static cards into native button controls with stable RQ IDs, `aria-pressed`
+  state, visible keyboard focus, and a shared detail panel.
+- Added proposal-grounded participant/evidence, analysis, integration, and
+  interpretive-boundary details for each question. Adult university students
+  remain direct participant evidence for RQ1 and contextual for RQ2/RQ3; NCES
+  and RAND remain structural context; AI-generated texts remain a separately
+  labeled nonparticipant comparison.
+- Added versioned CSS and JavaScript references so the published interaction is
+  not hidden by stale browser caches.
+- Preserved proposal-stage boundaries. No recruitment, participant data,
+  analysis, findings, or framework validation was added or implied.
+
 ## 2026-07-25 - Link The Friction Atlas into the Explore and play group
 
 Agent: Claude Opus 5 (Claude Code).
