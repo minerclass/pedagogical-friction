@@ -15,9 +15,10 @@ rehearsal path.
 
 ## What it is
 
-- **Public and scholarly.** It presents the argument and design for orientation. It reports **no
-  dissertation findings** (the proposal was approved August 13, 2026, and the study remains before
-  data collection and IRB approval).
+- **Public and scholarly.** It presents the argument and design for orientation. The proposal defense
+  was passed August 13, 2026. Interview-question revisions, committee review, a planned
+  three-educator flow rehearsal, and the IRB update come next. It reports **no dissertation findings**;
+  IRB approval, formal recruitment, and main-study data collection remain future gates.
 - **One page, one interactive.** A live version of the study's ten-scenario card sort (Appendix F)
   lets a reader draw the productive-versus-exclusionary line and see the question the framework asks.
 - **A hub back into the ecosystem.** The closing section links the companion sites, the defense
