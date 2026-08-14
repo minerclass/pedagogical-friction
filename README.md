@@ -16,7 +16,8 @@ rehearsal path.
 ## What it is
 
 - **Public and scholarly.** It presents the argument and design for orientation. It reports **no
-  dissertation findings** (the study is at the proposal stage, before data collection and IRB approval).
+  dissertation findings** (the proposal was approved August 13, 2026, and the study remains before
+  data collection and IRB approval).
 - **One page, one interactive.** A live version of the study's ten-scenario card sort (Appendix F)
   lets a reader draw the productive-versus-exclusionary line and see the question the framework asks.
 - **A hub back into the ecosystem.** The closing section links the companion sites, the defense
